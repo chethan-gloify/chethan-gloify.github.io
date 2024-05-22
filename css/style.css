@@ -184,7 +184,7 @@ body {
   max-width: 560px;
   font-size: 14px;
   line-height: 22px;
-  margin-top: 2rem;
+  margin-top: 5rem;
   color: var(--secondary-color);
 }
 
@@ -202,11 +202,17 @@ body {
   text-decoration: underline;
 }
 
-.main-right-container {
-  background: url('/assets/img/bg.svg') center center/contain no-repeat;
-  flex: 1 1 0;
+.right-bg {
+  background: url('/assets/img/bg.svg') top right no-repeat;
+  flex: 1;
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.main-right-container {
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 1.7rem;
 }
