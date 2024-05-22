@@ -38,6 +38,34 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+}
+
+.nav-list-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list-mobile li {
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-weight: 700;
+  width: 90%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.nav-list-mobile li:last-child {
+  background-color: var(--primary-color);
+  border: none;
+  box-shadow: 3px 4px 6px 0px #48476433;
+  border-radius: 5px;
+}
+
 @media (max-width: 768px) {
   .header-container {
     margin: 0 2rem;

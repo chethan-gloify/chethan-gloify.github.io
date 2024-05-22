@@ -40,6 +40,18 @@
         </div>
         <img class="menu" src="/assets/img/menu.svg" alt="menu" />
       </div>
+      <div class="mobile-menu">
+        <nav>
+          <ul class="nav-list-mobile">
+            <li>Investors</li>
+            <li>Syndicates</li>
+            <li>Startups / Hedge Funds</li>
+            <li>Resources</li>
+            <li>Log In</li>
+            <li>Sign Up</li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main-container">
       <div>
@@ -139,5 +151,16 @@
         </div>
       </div>
     </main>
+    <script>
+      const menu = document.querySelector('.mobile-menu');
+      const menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', (e) => {
+        if (menu.style.display === 'block') {
+          menu.style.display = 'none';
+        } else {
+          menu.style.display = 'block';
+        }
+      });
+    </script>
   </body>
 </html>
