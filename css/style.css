@@ -280,6 +280,12 @@ body {
   color: var(--secondary-color);
 }
 
+@media (max-width: 480px) {
+  .disclaimer {
+    margin-top: 3rem;
+  }
+}
+
 .link-text {
   text-decoration: underline;
   cursor: pointer;
@@ -303,10 +309,10 @@ body {
 }
 
 .main-right-container {
-  display: flex;
+  display: flex !important;
   justify-content: flex-end;
   align-items: center;
-  gap: 1.7rem;
+  width: 600px;
 }
 
 @media (max-width: 768px) {
@@ -318,10 +324,15 @@ body {
   }
 }
 
+@media (max-width: 576px) {
+  .main-right-container {
+    width: 300px;
+  }
+}
+
 .card-1-container {
   border-radius: 10px;
   width: 264px;
-  background-color: #fff;
 }
 
 /* .card-1-container::after {
@@ -380,8 +391,9 @@ body {
   gap: 1.5rem;
   padding: 1rem 1rem 1.5rem 1rem;
   text-align: center;
-  box-shadow: 6px 5px 48px 0px #00000025;
   border-radius: 10px;
+  width: 264px;
+  background-color: #fff;
 }
 
 .card-2-bottom p {
