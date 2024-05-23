@@ -17,6 +17,8 @@ $('#slick').slick({
   slidesToShow: 2,
   slidesToScroll: 3,
   adaptiveHeight: true,
+  arrows: false,
+
   // prevArrow: "<span class='slick-prev'>&lt;</span>",
   // nextArrow: "<span class='slick-next'>&gt;</span>",
   responsive: [
@@ -25,6 +27,7 @@ $('#slick').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        arrows: false,
       },
     },
     {
