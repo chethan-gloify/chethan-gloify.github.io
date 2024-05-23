@@ -320,7 +320,7 @@ body {
     background: none;
   }
   .main-right-container {
-    margin: 4rem auto;
+    margin: 3rem auto !important;
     display: block !important;
   }
 }
