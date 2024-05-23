@@ -334,7 +334,7 @@ body {
 .card-1-container {
   border-radius: 10px;
   width: 264px;
-  margin: 1px 0;
+  margin: 1px 1rem;
 }
 
 /* .card-1-container::after {
