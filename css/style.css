@@ -30,11 +30,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 85%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 1366px) {
   .header-container {
     max-width: 90%;
   }
@@ -182,13 +182,13 @@ body {
 
 /* Main */
 .main-container {
-  max-width: 85%;
+  max-width: 1300px;
   margin: 4rem auto;
   display: flex;
   margin-top: 110px;
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 1366px) {
   .main-container {
     max-width: 90%;
     margin: 0 auto;
