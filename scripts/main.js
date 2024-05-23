@@ -9,6 +9,8 @@ menuBtn.addEventListener('click', (e) => {
 });
 
 $('#slick').slick({
+  autoplay: true,
+  autoplaySpeed: 4000,
   dots: true,
   infinite: true,
   speed: 300,
