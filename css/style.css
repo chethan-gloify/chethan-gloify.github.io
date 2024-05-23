@@ -438,7 +438,7 @@ body {
   content: '';
   border-top: 1.8px solid #484764;
   width: 1rem;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   transform: translateY(-0.2rem);
 }
 
