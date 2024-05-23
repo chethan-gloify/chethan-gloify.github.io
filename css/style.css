@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 85%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -182,7 +182,7 @@ body {
 
 /* Main */
 .main-container {
-  max-width: 85%;
+  max-width: 1300px;
   margin: 4rem auto;
   display: flex;
   margin-top: 110px;
